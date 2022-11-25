@@ -1,0 +1,591 @@
+		@media only screen and (min-width: 992px) {
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			padding: 1px;
+			font-size:24px;
+		}
+		blockquote, pre{
+			letter-spacing: 2px;
+			font-family: "Gill Sans", Arial, sans-serif;
+		}
+		nav {
+			background-color: #efefef;
+			padding: 10px;
+			font-size:16px;}
+		a:link {
+			color: darkcyan;
+			text-decoration: none;}
+		a:visited {
+			color: black;}
+		a:hover {
+			cursor: pointer;
+			color: purple;
+			text-decoration: underline;}
+		input:hover{
+			cursor: pointer;
+			}
+		input:focus{
+			background-color: aquamarine;
+		}
+		details:hover {
+			cursor: pointer;
+			}
+		a:active {
+			color: green;}
+		p, details{
+			font-family: Arial, Verdana, sans-serif;
+			width: 800px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-size:14px;}
+		p.copy {
+			padding-top: 1px;
+			padding-bottom: 1px;
+			width: 400px;
+		}
+		h2 {
+			font-family: Georgia, Times, serif;
+			padding: 10px;
+		}
+		h1 {
+			font-family: Georgia, Times, serif;
+			font-size: 34px;
+			padding: 10px;
+		}
+		footer {
+			position: relative;
+			width: 400px;
+			padding: 20px;}
+		dd {
+			font-size:14px;}
+		td{
+			table-layout: auto;
+			padding: 10px;
+			border: 1px solid #111111;
+		}
+		th{
+			background-color: #efefef;
+			text-align: left;
+			border: 1px solid #111111;
+		}	
+		figure {
+			background: #e7e3d8;
+			width: 450px;
+			height: 420px;
+			padding-top: 20px;
+			text-align: center;
+			}
+		img{
+			min-width: 400px;
+			min-height: 380px;
+		}
+		ul {
+			list-style: circle;
+		}
+		figcaption{
+			font-size:14px;
+			font: caption;
+		}
+		section{
+			width: 600px;
+			padding: 10px;
+			}
+		section.animals{
+			width: 600px;
+			padding: 10px;
+			font-size:14px;
+			}
+		fieldset {
+			width: 350px;
+			border: 1px solid #dcdcdc;
+			border-radius: 10px;
+			padding: 20px;
+			text-align: left;
+			}
+		input#name{
+			width: 250px;
+		}
+		input#email{
+			width: 250px;
+			}
+		input#site{
+			width: 250px;
+			}
+		input#other{
+			width: 240px;
+			background-image: url("i2.jpg");
+			background-position: left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			border: gainsboro;
+			padding-bottom: 10px;
+			}
+		input#other:focus{
+			background-image: none;
+		}
+		input#question{
+			width: 250px;
+			}
+		input#file{
+			padding-right: 10px;
+			font-size:14px;
+			}
+		textarea#area{
+			width: 250px;
+			resize: none;
+			}
+		select#topic{
+			font-size:12px;
+			}
+		input#submit {
+			font-size:14px;
+			border: 1px solid #006633;
+			background-color: #009966;
+			color: #FFFFFF;
+			border-radius: 5px;
+			padding: 5px;
+			margin-top: 10px;
+			position: relative;
+			}
+		legend {
+			font-style:italic;
+			color:#666666;}
+		}
+		@media only screen and (min-width: 768px){
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			font-size:100%;
+		}
+		blockquote, pre{
+			letter-spacing: 1px;
+			font-family: "Gill Sans", Arial, sans-serif;
+		}
+		nav {
+			background-color: #efefef;
+			padding: 10px;
+			font-size:18px;
+			}
+		a:link {
+			color: darkcyan;
+			text-decoration: none;}
+		a:visited {
+			color: black;}
+		a:hover {
+			cursor: pointer;
+			color: purple;
+			text-decoration: underline;}
+		input:hover{
+			cursor: pointer;
+			}
+		input:focus{
+			background-color: aquamarine;
+		}
+		details:hover {
+			cursor: pointer;
+			}
+		a:active {
+			color: green;}
+		p, details{
+			font-family: Arial, Verdana, sans-serif;
+			font-size:16px;
+			min-width: 150%;
+			padding-top: 20px;
+			padding-bottom: 20px;}
+		p.copy {
+			padding-top: 1px;
+			padding-bottom: 1px;
+			width: 300px;
+		}
+		h2 {
+			font-family: Georgia, Times, serif;
+			padding: 10px;
+			font-size: 24px;
+		}
+		h1 {
+			font-family: Georgia, Times, serif;
+			font-size: 34px;
+			padding: 10px;
+		}
+		footer {
+			position: relative;
+			width: 400px;
+			padding: 20px;}
+		dd {
+			font-size:90%;}
+		td{
+			table-layout: auto;
+			padding: 10px;
+			border: 1px solid #111111;
+		}
+		th{
+			background-color: #efefef;
+			text-align: left;
+			border: 1px solid #111111;
+		}	
+		figure {
+			width: 350px;
+			height: 320px;
+			background-color: #e7e3d8;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: center;
+			}
+		img{
+			min-width: 300px;
+			min-height: 280px;
+		}
+		ul {
+			list-style: circle;
+		}
+		figcaption{
+			font-size:90%;
+		}
+		section{
+			float: left;
+			width: 33.33%;
+			padding-left: 10px;
+			font-size:100%;
+			}
+		section.animallists{
+			float: right;
+			width: 33.33%;
+			padding-right: 10%;
+			font-size:16px;
+			}
+		fieldset {
+			max-width: 350px;
+			min-width: 300px;
+			border: 1px solid #dcdcdc;
+			border-radius: 10px;
+			padding: 10px;
+			text-align: left;
+			}
+		input#name{
+			width: 250px;
+		}
+		input#email{
+			width: 250px;
+			}
+		input#site{
+			width: 250px;
+			}
+		input#other{
+			width: 240px;
+			background-image: url("i2.jpg");
+			background-position: left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			border: gainsboro;
+			padding-bottom: 10px;
+			}
+		input#other:focus{
+			background-image: none;
+			}
+		input#question{
+			width: 250px;
+		}
+		input#file{
+			padding-right: 10px;
+			font-size:100%;
+			}
+		textarea#area{
+			width: 250px;
+			resize: none;
+			}
+		select#topic{
+			font-size:100%;
+			}
+		input#submit {
+			font-size:100%;
+			border: 1px solid #006633;
+			background-color: #009966;
+			color: #FFFFFF;
+			border-radius: 5px;
+			padding: 5px;
+			margin-top: 10px;
+			position: relative;
+			}
+		legend {
+			font-style:italic;
+			color:#666666;}
+		}
+		@media only screen and (min-width: 600px) {
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			font-size:90%;
+			position: relative;
+		}
+		blockquote, pre{
+			letter-spacing: 1px;
+			font-family: "Gill Sans", Arial, sans-serif;
+		}
+		nav {
+			background-color: #efefef;
+			padding: 10px;
+			}
+		a:link {
+			color: darkcyan;
+			text-decoration: none;}
+		a:visited {
+			color: black;}
+		a:hover {
+			cursor: pointer;
+			color: purple;
+			text-decoration: underline;}
+		input:hover{
+			cursor: pointer;
+			}
+		input:focus{
+			background-color: aquamarine;
+		}
+		details:hover {
+			cursor: pointer;
+			}
+		a:active {
+			color: green;}
+		p, details{
+			font-family: Arial, Verdana, sans-serif;
+			width: 80%;
+			padding-top: 20px;
+			padding-bottom: 20px;}
+		p.copy {
+			padding-top: 1px;
+			padding-bottom: 1px;
+			width: 300px;
+		}
+		h1, h2 {
+			font-family: Georgia, Times, serif;
+			padding: 10px;
+		}
+		footer {
+			position: relative;
+			max-width: 400px;
+			padding: 20px;}
+		dd {
+			font-size:90%;}
+		td{
+			table-layout: auto;
+			padding: 10px;
+			border: 1px solid #111111;
+			}
+		th{
+			background-color: #efefef;
+			text-align: left;
+			border: 1px solid #111111;
+		}
+		figure {
+			width: 350px;
+			height: 320px;
+			background-color: #e7e3d8;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			text-align: center;
+			}
+		img{
+			min-width: 300px;
+			min-height: 280px;
+		}
+		ul {
+			list-style: circle;
+		}
+		figcaption{
+			font-size:90%;
+		}
+		fieldset {
+			width: 300px;
+			border: 1px solid #dcdcdc;
+			border-radius: 10px;
+			padding: 20px;
+			text-align: left;
+			}
+		input#name{
+			width: 240px;
+		}
+		input#email{
+			width: 240px;
+			}
+		input#site{
+			width: 240px;
+			}
+		input#other{
+			width: 240px;
+			background-image: url("i2.jpg");
+			background-position: left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			border: gainsboro;
+			padding-bottom: 10px;
+			}
+		input#other:focus{
+			background-image: none;
+			}
+		input#question{
+			width: 240px;
+			}
+		textarea#area{
+			width: 240px;
+			resize: none;
+			}
+		select#topic{
+			font-size:90%;
+			}
+		input#file{
+			padding-right: 10px;
+			font-size:90%;
+			}
+		input#submit {
+			font-size:90%;
+			border: 1px solid #006633;
+			background-color: #009966;
+			color: #FFFFFF;
+			border-radius: 5px;
+			padding: 5px;
+			margin-top: 10px;
+			position: relative;
+			}
+		legend {
+			font-style:italic;
+			color:#666666;}
+		}
+		@media only screen and (max-width: 600px) {
+		body {
+			font-family: Arial, Verdana, sans-serif;
+			position: absolute;
+			left: 10%;
+			font-size:80%;
+		}
+		blockquote, pre{
+			font-family: "Gill Sans", Arial, sans-serif;
+		}
+		section.animallists{
+			position: absolute;
+			left: 10%;
+			}
+		nav {
+			background-color: #efefef;
+			padding: 10px;}
+		a:link {
+			color: darkcyan;
+			text-decoration: none;}
+		a:visited {
+			color: black;}
+		a:hover {
+			cursor: pointer;
+			color: purple;
+			text-decoration: underline;}
+		input:hover{
+			cursor: pointer;
+			}
+		input:focus{
+			background-color: aquamarine;
+		}
+		details:hover {
+			cursor: pointer;
+			}
+		a:active {
+			color: green;}
+		p, details{
+			position: relative;
+			left: 10%;
+			font-family: Arial, Verdana, sans-serif;
+			width: 300px;
+			padding-top: 20px;
+			padding-bottom: 20px;}
+		p.copy {
+			padding-top: 1px;
+			padding-bottom: 1px;
+			width: 300px;
+			left: inherit;
+		}
+		h1, h2 {
+			font-family: Georgia, Times, serif;
+			padding: 10px;
+		}
+		footer {
+			padding: 20px;}
+		dd {
+			font-size:90%;}
+		td{
+			table-layout: auto;
+			padding: 10px;
+			border: 1px solid #111111;
+		}
+		th{
+			background-color: #efefef;
+			text-align: left;
+			border: 1px solid #111111;
+		}
+		figure {
+			width: 300px;
+			height: 280px;
+			background-color: #e7e3d8;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			text-align: center;
+			}
+
+		ul {
+			list-style: circle;
+			position: relative;
+			left: 10%;
+		}
+		figcaption{
+			font-size:80%;
+		}
+		fieldset {
+			width: 300px;
+			border: 1px solid #dcdcdc;
+			border-radius: 10px;
+			padding: 2px;
+			text-align: left;
+			}
+		input#name{
+			width: 240px;
+		}
+		input#email{
+			width: 240px;
+			}
+		input#site{
+			width: 240px;
+			}
+		input#other{
+			width: 240px;
+			background-image: url("i2.jpg");
+			background-position: left;
+			background-size: contain;
+			background-repeat: no-repeat;
+			border: gainsboro;
+			padding-bottom: 10px;
+			}
+		input#other:focus{
+			background-image: none;
+			}
+		input#question{
+			width: 240px;
+			}
+		textarea#area{
+			width: 240px;
+			resize: none;
+			}
+		select#topic{
+			font-size:80%;
+			}
+		input#file{
+			font-size:80%;
+			padding-right: 10px;
+			}
+		input#submit {
+			font-size:90%;
+			border: 1px solid #006633;
+			background-color: #009966;
+			color: #FFFFFF;
+			border-radius: 5px;
+			padding: 5px;
+			margin-top: 10px;
+			position: relative;
+			}
+		legend {
+			font-style:italic;
+			color:#666666;}
+		
+		}
